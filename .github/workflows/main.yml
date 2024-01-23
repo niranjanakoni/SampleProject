@@ -20,6 +20,7 @@ jobs:
 
   deploy:
     runs-on: demo-runner
+    needs: test-job
     steps:
       - uses: actions/download-artifact@v4.1.1
         with:
