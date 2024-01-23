@@ -5,6 +5,9 @@ on:
     branches:
       - 'main'
       - '!test'
+  pull_request:
+    branches:
+      - 'test'
 
 jobs:
   test-job:
