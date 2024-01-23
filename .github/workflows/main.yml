@@ -10,5 +10,4 @@ jobs:
   test-job:
     runs-on: ubuntu-latest
     steps:
-      - run: echo date
-    
+      - run: cal
